@@ -21,7 +21,7 @@ This pack uses the [GZDoom Modern 4.7.1 (64-bit)](https://github.com/coelckers/g
 [<img src="https://zdoom.org/w/images/2/25/Circle_gzdoom.png" alt="GZDoom Download" width="150" />](https://zdoom.org/downloads)
 
 ## How to Play
-Simply double click the `.bat` files inside of the Batch Scripts folder to run the game. It will open a command prompt window with some basic information of the game/mod and that is completely normal. It will close itself when you close the game.
+Simply double click the `.bat` files inside of the Batch Scripts folder to run the game. It will open a command prompt window with some basic information of the game/mod and will close itself when you close the game.
 
 **Linux Alternative** <br/>
 In case you're on a Debian based Linux distro, [this branch](https://github.com/TheRambotnic/GZDoomModPack/tree/linux) contains all of the required files to run GZDoom. Make sure to read the README for more information!
