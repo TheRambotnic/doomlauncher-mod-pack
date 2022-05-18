@@ -21,14 +21,14 @@ This pack uses the [GZDoom Modern 4.7.1 (64-bit)](https://github.com/coelckers/g
 [<img src="https://zdoom.org/w/images/2/25/Circle_gzdoom.png" alt="GZDoom Download" width="150" />](https://zdoom.org/downloads)
 
 ## How to Play
-Simply double click the `.bat` files inside of the Batch Scripts folder to run the game. It will open a command prompt window with some basic information of the game/mod and will close itself when you close the game.
+1. Download the required files on my [Google Drive](https://drive.google.com/drive/folders/1e1fbEjVGYPP10DRqNxhUlgQVdjPGuwqq?usp=sharing)
+2. Paste the IWADs and Mods folders inside the GZDoom folder of this pack
+3. Go into the Batch Files folder and simply double click the `.bat` files to run the game. It will open a command prompt window with some basic information of the game/mod and will close itself when you close GZDoom.
 
 **Linux Alternative** <br/>
 In case you're on a Debian based Linux distro, [this branch](https://github.com/TheRambotnic/GZDoomModPack/tree/linux) contains all of the required files to run GZDoom. Make sure to read the README for more information!
 
 ## IWADs and Mods
-I've packaged all of the required files in my [Google Drive](https://drive.google.com/drive/folders/1e1fbEjVGYPP10DRqNxhUlgQVdjPGuwqq?usp=sharing). Simply paste the folders inside the GZDoom folder of this pack.
-
 Below is a list of mods that are available in the Google Drive archive:
 * [Ashes: 2063 - Episode One](https://www.moddb.com/mods/ashes-2063/downloads)
 * [Ashes: Afterglow - Episode Two](https://www.moddb.com/mods/ashes-2063/downloads)
