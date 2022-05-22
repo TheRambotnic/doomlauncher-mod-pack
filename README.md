@@ -10,10 +10,9 @@ This is a personal repo similar to [GamePatchesAndConfigs](https://github.com/Th
 6. [Links](#links)
 
 ## Changelog
-**2022-05-17**
+**2022-05-22**
 * [Google Drive](https://drive.google.com/drive/folders/1e1fbEjVGYPP10DRqNxhUlgQVdjPGuwqq?usp=sharing)
-	* Added new folder especifically for megawads
-	* Added new megawads: Sunlust and Valiant
+	* Added Smooth Doom
 
 ## GZDoom Source Port
 This pack uses the [GZDoom Modern 4.7.1 (64-bit)](https://github.com/coelckers/gzdoom/releases/download/g4.7.1/gzdoom-4-7-1-Windows-64bit.zip) source port.
@@ -64,6 +63,7 @@ Below is a list of **extra/optional** mods that are available in the Google Driv
 * [IDKFA Soundtrack](https://www.moddb.com/mods/brutal-doom/addons/idkfa-doom-soundtrack)
 * [Hitmarkers](https://www.wad-archive.com/wad/782cb71865e196ea2e4c99b27eb7ce292d42f6b4)
 * [ZMovement 3.2.1](https://forum.zdoom.org/viewtopic.php?t=65095)
+* [Smooth Doom](https://www.doomworld.com/forum/topic/69451-smooth-doom-update-41420/)
 
 ## Issues
 In case the game opens on any of your monitors besides your primary, open the console and type `vid_adapter #` where `#` is the number of the monitor you wish to use. If you don't know which one it is, press `Windows Key + I` and go to `System > Display`. Usually, the primary monitor should be number 1.
