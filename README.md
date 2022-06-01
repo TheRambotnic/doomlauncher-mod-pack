@@ -10,9 +10,13 @@ This is a personal repo similar to [GamePatchesAndConfigs](https://github.com/Th
 6. [Links](#links)
 
 ## Changelog
-**2022-05-22**
+**2022-06-01**
 * [Google Drive](https://drive.google.com/drive/folders/1e1fbEjVGYPP10DRqNxhUlgQVdjPGuwqq?usp=sharing)
-	* Added Smooth Doom
+	* Added Live Through Doom
+	* Added Alternate Dark Ambient Music Pack
+
+* Repository
+	* Added Batch and Config file for Live Through Doom
 
 ## GZDoom Source Port
 This pack uses the [GZDoom Modern 4.7.1 (64-bit)](https://github.com/coelckers/gzdoom/releases/download/g4.7.1/gzdoom-4-7-1-Windows-64bit.zip) source port.
@@ -43,6 +47,7 @@ Below is a list of mods that are available in the Google Drive archive:
 * [Embers of Armageddon](https://www.moddb.com/mods/embers-of-armageddon)
 * [HDoom](https://hdoomguy.newgrounds.com/)
 * [Lambda](https://www.moddb.com/mods/lambda-for-doom-and-d00m-2)
+* [Live Through Doom](https://discord.gg/sAE7jDT)
 * [Project Brutality](https://github.com/pa1nki113r/Project_Brutality)
 * [SHRINE](https://www.moddb.com/mods/shrine)
 * [SHRINE II](https://www.moddb.com/mods/shrine-ii)
@@ -64,6 +69,7 @@ Below is a list of **extra/optional** mods that are available in the Google Driv
 * [Hitmarkers](https://www.wad-archive.com/wad/782cb71865e196ea2e4c99b27eb7ce292d42f6b4)
 * [ZMovement 3.2.1](https://forum.zdoom.org/viewtopic.php?t=65095)
 * [Smooth Doom](https://www.doomworld.com/forum/topic/69451-smooth-doom-update-41420/)
+* [Alternate Dark Ambient Music Pack](https://www.moddb.com/mods/brutal-doom/addons/alternate-dark-ambient-music-pack)
 
 ## Issues
 In case the game opens on any of your monitors besides your primary, open the console and type `vid_adapter #` where `#` is the number of the monitor you wish to use. If you don't know which one it is, press `Windows Key + I` and go to `System > Display`. Usually, the primary monitor should be number 1.
