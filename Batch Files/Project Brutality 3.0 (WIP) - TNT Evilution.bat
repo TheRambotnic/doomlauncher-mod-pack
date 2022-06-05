@@ -8,7 +8,7 @@ set title=Project Brutality 3.0 (W.I.P) - TNT Evilution
 set iwadsPath=%enginePath%/IWADs
 set modsPath=%enginePath%/Mods
 set globalPath=%modsPath%/#GLOBAL
-set megawadsPath=%modsPath%/#Megawads
+set megawadsPath=%iwadsPath%/Megawads
 
 :: when using this variable, remember to put a hyphen after it
 set configsPath=%enginePath%/Configs/gzdoom

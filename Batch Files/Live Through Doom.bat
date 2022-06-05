@@ -8,7 +8,7 @@ set title=Live Through Doom
 set iwadsPath=%enginePath%/IWADs
 set modsPath=%enginePath%/Mods
 set globalPath=%modsPath%/#GLOBAL
-set megawadsPath=%modsPath%/#Megawads
+set megawadsPath=%iwadsPath%/Megawads
 
 :: when using this variable, remember to put a hyphen after it
 set configsPath=%enginePath%/Configs/gzdoom
@@ -31,7 +31,7 @@ cd
 %enginePath%\gzdoom.exe ^
 -iwad 	"%iwadsPath%/DOOM2.wad" ^
 -file	"%modsPath%/Live Through Doom/LiTDOOM - 0.59b.pk3" ^
-		"%globalPath%/ADAMP2.pk3" ^
 		"%iwadsPath%/MASTER.wad" ^
+		"%globalPath%/ADAMP2.pk3" ^
 		"%enginePath%/lights.pk3" ^
 -config "%configsPath%-LiTDoom.ini"

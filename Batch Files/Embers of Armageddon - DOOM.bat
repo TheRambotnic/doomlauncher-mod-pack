@@ -8,7 +8,7 @@ set title=Embers of Armageddon - The Ultimate DOOM
 set iwadsPath=%enginePath%/IWADs
 set modsPath=%enginePath%/Mods
 set globalPath=%modsPath%/#GLOBAL
-set megawadsPath=%modsPath%/#Megawads
+set megawadsPath=%iwadsPath%/Megawads
 
 :: when using this variable, remember to put a hyphen after it
 set configsPath=%enginePath%/Configs/gzdoom

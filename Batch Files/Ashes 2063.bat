@@ -9,7 +9,7 @@ set title=Ashes: 2063 - Episode One
 set iwadsPath=%enginePath%/IWADs
 set modsPath=%enginePath%/Mods
 set globalPath=%modsPath%/#GLOBAL
-set megawadsPath=%modsPath%/#Megawads
+set megawadsPath=%iwadsPath%/Megawads
 
 :: when using this variable, remember to put a hyphen after it
 set configsPath=%enginePath%/Configs/gzdoom

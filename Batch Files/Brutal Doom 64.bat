@@ -8,7 +8,7 @@ set title=Brutal Doom 64 v2.5
 set iwadsPath=%enginePath%/IWADs
 set modsPath=%enginePath%/Mods
 set globalPath=%modsPath%/#GLOBAL
-set megawadsPath=%modsPath%/#Megawads
+set megawadsPath=%iwadsPath%/Megawads
 
 :: when using this variable, remember to put a hyphen after it
 set configsPath=%enginePath%/Configs/gzdoom
