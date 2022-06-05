@@ -31,6 +31,6 @@ cd
 %enginePath%\gzdoom.exe ^
 -iwad 	"%iwadsPath%/DOOM.wad" ^
 -file 	"%modsPath%/Project Brutality/Project_Brutality.pk3" ^
-		"%globalPath%/DoomMetalVol5.wad" ^
+		"%globalPath%/IDKFAv2.wad" ^
 		"%enginePath%/lights.pk3" ^
 -config "%configsPath%-ProjectBrutality.ini"
