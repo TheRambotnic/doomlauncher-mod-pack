@@ -10,13 +10,14 @@ This is a personal repo similar to [GamePatchesAndConfigs](https://github.com/Th
 6. [Links](#links)
 
 ## Changelog
-**2022-06-01**
+**2022-06-05**
 * [Google Drive](https://drive.google.com/drive/folders/1e1fbEjVGYPP10DRqNxhUlgQVdjPGuwqq?usp=sharing)
-	* Added Live Through Doom
-	* Added Alternate Dark Ambient Music Pack
+	* Updated path to Megawads
+	* Added Alien Vendetta and Scythe
 
 * Repository
-	* Added Batch and Config file for Live Through Doom
+	* Updated path to Megawads
+	* Added vanilla batch files for Alien Vendetta and Scythe
 
 ## GZDoom Source Port
 This pack uses the [GZDoom Modern 4.7.1 (64-bit)](https://github.com/coelckers/gzdoom/releases/download/g4.7.1/gzdoom-4-7-1-Windows-64bit.zip) source port.
@@ -55,9 +56,11 @@ Below is a list of mods that are available in the Google Drive archive:
 * [Wolfenstein 3D TC](https://www.afadoomer.com/wolf3d/downloads.html)
 
 Below is a list of megawads that are available in the Google Drive archive:
+* [Alien Vendetta](https://www.doomworld.com/idgames/levels/doom2/megawads/av)
 * [Back to Saturn X Episode 1: Get Out Of My Stations](https://www.doomworld.com/forum/topic/62529)
 * [Back to Saturn X Episode 2: Tower In The Fountain Of Sparks](https://www.doomworld.com/forum/topic/69960)
 * [Eviternity](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/eviternity)
+* [Scythe](https://www.doomworld.com/idgames/levels/doom2/megawads/scythe)
 * [Sunlust](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/sunlust)
 * [Valiant](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/valiant)
 
