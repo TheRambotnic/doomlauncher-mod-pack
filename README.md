@@ -11,10 +11,10 @@ This is a personal repo similar to [GamePatchesAndConfigs](https://github.com/Th
 
 ## Changelog
 **2022-06-06**
-* [Google Drive](https://drive.google.com/drive/folders/1e1fbEjVGYPP10DRqNxhUlgQVdjPGuwqq?usp=sharing)
+* [**Google Drive**](https://drive.google.com/drive/folders/1e1fbEjVGYPP10DRqNxhUlgQVdjPGuwqq?usp=sharing)
 	* Updated EdayMusic001.wad with Clint Mansell's "First Person Shooter" track for map EDAY01
 
-* Repository
+* **Repository**
 	* Added new batch file: Project Brutality 3.0 - Extermination Day
 
 ## GZDoom Source Port
