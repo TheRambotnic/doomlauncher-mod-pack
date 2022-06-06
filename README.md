@@ -10,14 +10,12 @@ This is a personal repo similar to [GamePatchesAndConfigs](https://github.com/Th
 6. [Links](#links)
 
 ## Changelog
-**2022-06-05**
+**2022-06-06**
 * [Google Drive](https://drive.google.com/drive/folders/1e1fbEjVGYPP10DRqNxhUlgQVdjPGuwqq?usp=sharing)
-	* Updated path to Megawads
-	* Added Alien Vendetta and Scythe
+	* Updated EdayMusic001.wad with Clint Mansell's "First Person Shooter" track for map EDAY01
 
 * Repository
-	* Updated path to Megawads
-	* Added vanilla batch files for Alien Vendetta and Scythe
+	* Added new batch file: Project Brutality 3.0 - Extermination Day
 
 ## GZDoom Source Port
 This pack uses the [GZDoom Modern 4.7.1 (64-bit)](https://github.com/coelckers/gzdoom/releases/download/g4.7.1/gzdoom-4-7-1-Windows-64bit.zip) source port.
