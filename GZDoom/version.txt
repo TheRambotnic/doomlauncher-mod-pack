@@ -1,1 +1,1 @@
-GZDoom Modern 4.7.1 (64-bit) - https://zdoom.org/downloads
+GZDoom Modern 4.8.0 (64-bit) - https://zdoom.org/downloads
