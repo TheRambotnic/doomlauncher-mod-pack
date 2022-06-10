@@ -10,12 +10,13 @@ This is a personal repo similar to [GamePatchesAndConfigs](https://github.com/Th
 6. [Links](#links)
 
 ## Changelog
-**2022-06-09**
+**2022-06-10**
 * **Repository**
-	* Updated GZDoom version to 4.8.0
+	* Reverted GZDoom version back to 4.7.1
+	* Updated config files with Vulkan as the default rendering API and `con_scale` set to 0
 
 ## GZDoom Source Port
-This pack uses the [GZDoom Modern 4.8.0 (64-bit)](https://github.com/coelckers/gzdoom/releases/download/g4.8.0/gzdoom-4-8-0-Windows-64bit.zip) source port.
+This pack uses the [GZDoom Modern 4.7.1 (64-bit)](https://github.com/coelckers/gzdoom/releases/download/g4.7.1/gzdoom-4-7-1-Windows-64bit.zip) source port.
 
 [<img src="https://zdoom.org/w/images/2/25/Circle_gzdoom.png" alt="GZDoom Download" width="150" />](https://zdoom.org/downloads)
 
