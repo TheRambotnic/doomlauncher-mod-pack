@@ -10,15 +10,13 @@ This is a personal repo similar to [GamePatchesAndConfigs](https://github.com/Th
 6. [Links](#links)
 
 ## Changelog
-**2022-06-17**
-* [**Google Drive**](https://drive.google.com/drive/folders/1e1fbEjVGYPP10DRqNxhUlgQVdjPGuwqq?usp=sharing)
-	* Added DoomGals Companion Mod v1.1
-
+**2022-07-09**
 * **Repository**
-	* Updated config file for Brutal Doom
+	* Updated GZDoom version to 4.8.2
+	* Updated all config files
 
 ## GZDoom Source Port
-This pack uses the [GZDoom Modern 4.7.1 (64-bit)](https://github.com/coelckers/gzdoom/releases/download/g4.7.1/gzdoom-4-7-1-Windows-64bit.zip) source port.
+This pack uses the [GZDoom Modern 4.8.2 (64-bit)](https://github.com/coelckers/gzdoom/releases/download/g4.8.2/gzdoom-4-8-2-Windows-64bit.zip) source port.
 
 [<img src="https://zdoom.org/w/images/2/25/Circle_gzdoom.png" alt="GZDoom Download" width="150" />](https://zdoom.org/downloads)
 
