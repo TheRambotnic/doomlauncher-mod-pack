@@ -10,10 +10,9 @@ This is a personal repo similar to [GamePatchesAndConfigs](https://github.com/Th
 6. [Links](#links)
 
 ## Changelog
-**2022-07-09**
+**2022-07-19**
 * **Repository**
-	* Updated GZDoom version to 4.8.2
-	* Updated all config files
+	* Fixed ampersand in Scythe's and Sunlust's batch files
 
 ## GZDoom Source Port
 This pack uses the [GZDoom Modern 4.8.2 (64-bit)](https://github.com/coelckers/gzdoom/releases/download/g4.8.2/gzdoom-4-8-2-Windows-64bit.zip) source port.

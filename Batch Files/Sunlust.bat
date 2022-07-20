@@ -16,7 +16,7 @@ set configsPath=%enginePath%/Configs/gzdoom
 title %title%
 
 echo %title%
-echo by Ribbiks & Dannebubinga - https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/sunlust
+echo by Ribbiks ^& Dannebubinga - https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/sunlust
 echo.
 echo Running on %engineVersion%
 echo.

@@ -16,7 +16,7 @@ set configsPath=%enginePath%/Configs/gzdoom
 title %title%
 
 echo %title%
-echo by Erik Alm & Kim "Torn" Bach - https://www.doomworld.com/idgames/levels/doom2/megawads/scythe
+echo by Erik Alm ^& Kim "Torn" Bach - https://www.doomworld.com/idgames/levels/doom2/megawads/scythe
 echo.
 echo Running on %engineVersion%
 echo.
