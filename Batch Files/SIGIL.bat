@@ -31,6 +31,7 @@ cd
 %enginePath%\gzdoom.exe ^
 -iwad 	"%iwadsPath%/DOOM.wad" ^
 -file 	"%iwadsPath%/SIGIL.wad" ^
+		"%globalPath%/D1SPFX19.wad" ^
 -config "%configsPath%-__Vanilla__.ini" ^
 +set dmflags 4259840 ^
 +set compatflags -1172751421 ^
