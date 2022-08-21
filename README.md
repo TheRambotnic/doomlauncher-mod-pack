@@ -2,17 +2,11 @@
 This is a personal repo similar to [GamePatchesAndConfigs](https://github.com/TheRambotnic/GamePatchesAndConfigs), except for GZDoom mods.
 
 ## Contents
-1. [Changelog](#changelog)
-2. [GZDoom Source Port info](#gzdoom-source-port)
-3. [How to Play](#how-to-play)
-4. [IWADs and Mods](#iwads-and-mods)
-5. [Issues](#issues)
-6. [Links](#links)
-
-## Changelog
-**2022-07-19**
-* **Repository**
-	* Fixed ampersand in Scythe's and Sunlust's batch files
+1. [GZDoom Source Port info](#gzdoom-source-port)
+2. [How to Play](#how-to-play)
+3. [IWADs and Mods](#iwads-and-mods)
+4. [Issues](#issues)
+5. [Links](#links)
 
 ## GZDoom Source Port
 This pack uses the [GZDoom Modern 4.8.2 (64-bit)](https://github.com/coelckers/gzdoom/releases/download/g4.8.2/gzdoom-4-8-2-Windows-64bit.zip) source port.
