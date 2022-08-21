@@ -30,6 +30,8 @@ echo.
 cd
 %enginePath%\gzdoom.exe ^
 -iwad 	"%iwadsPath%/PLUTONIA.wad" ^
+-file	"%globalPath%/D2SPFX19.wad" ^
+		"%iwadsPath%/plutmidi.wad" ^
 -config "%configsPath%-__Vanilla__.ini" ^
 +set dmflags 4259840 ^
 +set compatflags -1172751421 ^
