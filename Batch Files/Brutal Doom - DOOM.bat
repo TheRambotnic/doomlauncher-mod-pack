@@ -32,13 +32,16 @@ echo.
 cd
 %enginePath%\gzdoom.exe ^
 -iwad 	"%iwadsPath%/DOOM.wad" ^
--file	"%modsPath%/Brutal Doom/Dox778sPersonalizedBrutalDoom_V14_FIXED-4_GLbmapfixed-CUSTOMIZED-4_FIXED_KICK_FF-6.pk3" ^
+-file	"%modsPath%/Brutal Doom/Dox778sPersonalizedBrutalDoom_V15.pk3" ^
 		"%globalPath%/IDKFAv2.wad" ^
 		"%modsPath%/Brutal Doom/brutalv21ADSpatch.pk3" ^
 		"%modsPath%/Brutal Doom/HXRTCHUD_FIXED_BDV21.pk3" ^
-		"%modsPath%/Brutal Doom/BrutalCrossbow_FIXED.pk3" ^
-		"%modsPath%/Brutal Doom/DoxsBrutalDeagle_FIXED_SPAWNER.pk3" ^
-		"%modsPath%/Brutal Doom/DoxsRevolver_FIXED_SPAWNER.pk3" ^
-		"%modsPath%/Brutal Doom/RipperChaingun_FIXED.pk3" ^
+		"%modsPath%/Brutal Doom/BrutalCrossbow_FIXED_V15.pk3" ^
+		"%modsPath%/Brutal Doom/DoxsBrutalDeagle_FIXED_SPAWNER_V15.pk3" ^
+		"%modsPath%/Brutal Doom/DoxsRevolver_FIXED_SPAWNER_V15.pk3" ^
+		"%modsPath%/Brutal Doom/RipperChaingun_FIXED_V15.pk3" ^
+		"%modsPath%/Brutal Doom/Various_Fixes_for_Doxs_V15.pk3" ^
+		"%globalPath%/TiltPlusPlus v1.65.pk3" ^
+		"%globalPath%/Damage Indicator.pk3" ^
 		"%enginePath%/lights.pk3" ^
 -config "%configsPath%-BrutalDoom.ini"
