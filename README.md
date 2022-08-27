@@ -64,6 +64,7 @@ Below is a list of **extra/optional** mods that are available in the Google Driv
 * [Alternate Dark Ambient Music Pack](https://www.moddb.com/mods/brutal-doom/addons/alternate-dark-ambient-music-pack)
 * [DoomGals Companion Mod](https://s20-tbl.itch.io/doomgals)
 * [Plutonia MIDI Pack](https://www.doomworld.com/idgames/music/plutmidi)
+* [Tilt++](https://forum.zdoom.org/viewtopic.php?t=55413)
 
 ## Issues
 In case the game opens on any of your monitors besides your primary, open the console and type `vid_adapter #` where `#` is the number of the monitor you wish to use. If you don't know which one it is, press `Windows Key + I` and go to `System > Display`. Usually, the primary monitor should be number 1.
