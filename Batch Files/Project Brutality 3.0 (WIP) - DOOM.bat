@@ -32,5 +32,6 @@ cd
 -iwad 	"%iwadsPath%/DOOM.wad" ^
 -file 	"%modsPath%/Project Brutality/Project_Brutality.pk3" ^
 		"%globalPath%/IDKFAv2.wad" ^
+		"%globalPath%/Damage Indicator.pk3" ^
 		"%enginePath%/lights.pk3" ^
 -config "%configsPath%-ProjectBrutality.ini"

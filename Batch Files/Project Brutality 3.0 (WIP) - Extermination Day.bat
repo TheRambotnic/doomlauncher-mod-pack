@@ -33,5 +33,6 @@ cd
 -file 	"%modsPath%/Project Brutality/Project_Brutality.pk3" ^
 		"%modsPath%/Brutal Doom/EdayTest001.pk3" ^
 		"%modsPath%/Brutal Doom/EdayMusic001.wad" ^
+		"%globalPath%/Damage Indicator.pk3" ^
 		"%enginePath%/lights.pk3" ^
 -config "%configsPath%-ProjectBrutality.ini"
