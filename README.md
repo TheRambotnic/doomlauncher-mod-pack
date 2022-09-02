@@ -45,7 +45,6 @@ Below is a list of mods that are available in the Google Drive archive:
 * [Wolfenstein 3D TC](https://www.afadoomer.com/wolf3d/downloads.html)
 
 Below is a list of megawads that are available in the Google Drive archive:
-* [Alien Vendetta](https://www.doomworld.com/idgames/levels/doom2/megawads/av)
 * [Back to Saturn X Episode 1: Get Out Of My Stations](https://www.doomworld.com/forum/topic/62529)
 * [Back to Saturn X Episode 2: Tower In The Fountain Of Sparks](https://www.doomworld.com/forum/topic/69960)
 * [Eviternity](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/eviternity)
