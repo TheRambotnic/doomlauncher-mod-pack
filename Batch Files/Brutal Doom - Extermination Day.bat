@@ -42,6 +42,7 @@ cd
 		"%modsPath%/Brutal Doom/DoxsRevolver_FIXED_SPAWNER_V15.pk3" ^
 		"%modsPath%/Brutal Doom/RipperChaingun_FIXED_V15.pk3" ^
 		"%modsPath%/Brutal Doom/Various_Fixes_for_Doxs_V15.pk3" ^
+		"%modsPath%/Brutal Doom/PlatinumRifleReskin.pk3" ^
 		"%globalPath%/TiltPlusPlus v1.65.pk3" ^
 		"%globalPath%/Damage Indicator.pk3" ^
 		"%enginePath%/lights.pk3" ^
