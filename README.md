@@ -50,6 +50,8 @@ Below is a list of megawads that are available in the Google Drive archive:
 * [Eviternity](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/eviternity)
 * [Sunlust](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/sunlust)
 * [Valiant](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/valiant)
+* [Stardate 20X6](https://www.doomworld.com/idgames/levels/doom2/Ports/s-u/stardate)
+* [Stardate 20X7](https://www.doomworld.com/idgames/levels/doom2/Ports/s-u/sd20x7)
 
 Below is a list of **extra/optional** mods that are available in the Google Drive archive:
 * [Brutal Doom v21 Monsters Only](https://www.moddb.com/mods/brutal-doom/downloads/bdv21-monsters-only-version)
