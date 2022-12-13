@@ -33,4 +33,5 @@ cd
 -iwad 	"%iwadsPath%/DOOM2.wad" ^
 -file 	"%modsPath%/Ashes TC/Ashes2063Enriched.pk3" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-Ashes.ini"
+-config "%configsPath%-Ashes.ini" ^
++set vid_fps 1

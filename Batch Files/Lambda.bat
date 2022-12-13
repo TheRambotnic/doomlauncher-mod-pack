@@ -33,4 +33,5 @@ cd
 -file 	"%modsPath%/Lambda/Lambda_Resources.pk3" ^
 		"%modsPath%/Lambda/Lambda_Code.pk3" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-Lambda.ini"
+-config "%configsPath%-Lambda.ini" ^
++set vid_fps 1

@@ -33,4 +33,5 @@ cd
 -file 	"%modsPath%/Brutal RPG/BrutalHereticRPG_V5.0.pk3" ^
 		"%modsPath%/Brutal RPG/H20MUS.wad" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-BrutalRPG.ini"
+-config "%configsPath%-BrutalRPG.ini" ^
++set vid_fps 1

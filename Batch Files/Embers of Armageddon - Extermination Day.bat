@@ -39,4 +39,5 @@ cd
 		"%modsPath%/Brutal Doom/EdayTest001.pk3" ^
 		"%modsPath%/Brutal Doom/EdayMusic001.wad" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-EoA.ini"
+-config "%configsPath%-EoA.ini" ^
++set vid_fps 1

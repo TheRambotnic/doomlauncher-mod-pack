@@ -32,4 +32,5 @@ cd
 -iwad 	"%iwadsPath%/HEXEN.wad" ^
 -file 	"%modsPath%/Brutal RPG/BrutalHexenRPG_V7.2.pk3" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-BrutalRPG.ini"
+-config "%configsPath%-BrutalRPG.ini" ^
++set vid_fps 1

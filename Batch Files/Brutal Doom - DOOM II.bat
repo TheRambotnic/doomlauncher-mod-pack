@@ -44,4 +44,5 @@ cd
 		"%globalPath%/TiltPlusPlus v1.65.pk3" ^
 		"%globalPath%/Damage Indicator.pk3" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-BrutalDoom.ini"
+-config "%configsPath%-BrutalDoom.ini" ^
++set vid_fps 1

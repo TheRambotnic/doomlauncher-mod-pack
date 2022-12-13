@@ -32,4 +32,5 @@ cd
 -iwad 	"%iwadsPath%/DOOM2.wad" ^
 -file 	"%modsPath%/VietDoom/vietdoomalpha3.pk3" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-VietDoom.ini"
+-config "%configsPath%-VietDoom.ini" ^
++set vid_fps 1

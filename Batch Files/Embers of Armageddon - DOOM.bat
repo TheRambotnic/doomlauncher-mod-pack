@@ -37,4 +37,5 @@ cd
 		"%modsPath%/Embers of Armageddon/STR_EOA_D4_Monsters_v1_6_eoa_1.9_fix.pk3" ^
 		"%globalPath%/D2K16_SOUNDTRACKS.wad" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-EoA.ini"
+-config "%configsPath%-EoA.ini" ^
++set vid_fps 1

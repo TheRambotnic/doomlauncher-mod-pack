@@ -33,5 +33,5 @@ cd
 -file 	"%modsPath%/Shrine/Shrine-Patched.pk3" ^
 		"%enginePath%/lights.pk3" ^
 -config "%configsPath%-Shrine.ini" ^
-+set screenblocks 10
-:: screenblocks is set to 10 to avoid a HUD problem
++set screenblocks 10 ^
++set vid_fps 1

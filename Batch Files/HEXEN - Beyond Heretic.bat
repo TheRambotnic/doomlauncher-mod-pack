@@ -32,4 +32,5 @@ cd
 -iwad 	"%iwadsPath%/HEXEN.wad" ^
 -file 	"%enginePath%/lights.pk3" ^
 -config "%configsPath%-Raven.ini" ^
-+set dmflags 4259840
++set dmflags 4259840 ^
++set vid_fps 1

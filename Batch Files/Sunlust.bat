@@ -31,8 +31,10 @@ cd
 %enginePath%\gzdoom.exe ^
 -iwad 	"%iwadsPath%/DOOM2.wad" ^
 -file 	"%megawadsPath%/Sunlust/sunlust.wad" ^
+		"%globalPath%/D2SPFX19.wad" ^
 -config "%configsPath%-__Vanilla__.ini" ^
 +set dmflags 4259840 ^
 +set compatflags -1172751421 ^
 +set compatflags2 523 ^
-+set vid_rendermode 0
++set vid_rendermode 0 ^
++set vid_fps 1

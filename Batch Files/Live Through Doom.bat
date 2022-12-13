@@ -34,4 +34,5 @@ cd
 		"%iwadsPath%/MASTER.wad" ^
 		"%globalPath%/ADAMP2.pk3" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-LiTDoom.ini"
+-config "%configsPath%-LiTDoom.ini" ^
++set vid_fps 1

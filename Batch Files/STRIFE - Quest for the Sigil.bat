@@ -31,4 +31,5 @@ cd
 %enginePath%\gzdoom.exe ^
 -iwad 	"%iwadsPath%/STRIFE1.wad" ^
 -file 	"%iwadsPath%/VOICES.wad" ^
--config "%configsPath%-Strife.ini"
+-config "%configsPath%-Strife.ini" ^
++set vid_fps 1

@@ -40,4 +40,5 @@ cd
 +set dmflags 4259840 ^
 +set compatflags -1172751421 ^
 +set compatflags2 523 ^
-+set vid_rendermode 0
++set vid_rendermode 0 ^
++set vid_fps 1

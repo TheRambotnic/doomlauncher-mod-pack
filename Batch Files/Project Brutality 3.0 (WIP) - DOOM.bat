@@ -34,4 +34,5 @@ cd
 		"%globalPath%/IDKFAv2.wad" ^
 		"%globalPath%/Damage Indicator.pk3" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-ProjectBrutality.ini"
+-config "%configsPath%-ProjectBrutality.ini" ^
++set vid_fps 1

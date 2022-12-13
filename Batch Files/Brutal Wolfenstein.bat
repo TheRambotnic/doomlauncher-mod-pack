@@ -32,4 +32,5 @@ cd
 -iwad 	"%iwadsPath%/DOOM2.wad" ^
 -file 	"%modsPath%/Brutal Wolfenstein/ZMC-BW5.8.pk3" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-BrutalWolf.ini"
+-config "%configsPath%-BrutalWolf.ini" ^
++set vid_fps 1

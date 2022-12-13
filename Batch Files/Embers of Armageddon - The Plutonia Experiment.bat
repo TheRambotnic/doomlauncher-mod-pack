@@ -38,4 +38,5 @@ cd
 		"%modsPath%/Embers of Armageddon/BDv21_Enhancements_EOA.pk3" ^
 		"%globalPath%/D2K16_SOUNDTRACKS.wad" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-EoA.ini"
+-config "%configsPath%-EoA.ini" ^
++set vid_fps 1

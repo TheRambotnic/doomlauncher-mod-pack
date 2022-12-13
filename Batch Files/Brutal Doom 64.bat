@@ -36,4 +36,5 @@ cd
 		"%modsPath%/Brutal Doom 64/ZBD64_v2_Intro_Music.pk3" ^
 		"%modsPath%/Brutal Doom 64/ZD64MUSIC.pk3" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-BrutalDoom.ini"
+-config "%configsPath%-BrutalDoom.ini" ^
++set vid_fps 1

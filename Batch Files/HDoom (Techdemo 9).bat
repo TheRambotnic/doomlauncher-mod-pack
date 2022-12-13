@@ -32,4 +32,5 @@ cd
 -iwad 	"%iwadsPath%/DOOM2.wad" ^
 -file 	"%modsPath%/HDoom/m12-hdoom_techdemo9.pk3" ^
 		"%enginePath%/lights.pk3" ^
--config "%configsPath%-HDoom.ini"
+-config "%configsPath%-HDoom.ini" ^
++set vid_fps 1
