@@ -30,7 +30,7 @@ echo.
 cd
 %enginePath%\gzdoom.exe ^
 -iwad 	"%iwadsPath%/DOOM2.wad" ^
--file 	"%modsPath%/Project Brutality/Project_Brutality.pk3" ^
+-file 	"%modsPath%/Project Brutality/Project_Brutality-2022-11-22.pk3" ^
 		"%modsPath%/Brutal Doom/EdayTest001.pk3" ^
 		"%modsPath%/Brutal Doom/EdayMusic001.wad" ^
 		"%globalPath%/Damage Indicator.pk3" ^
