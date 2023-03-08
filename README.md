@@ -55,6 +55,7 @@ Below is a list of megawads that are available in the Google Drive archive:
 
 Below is a list of **extra/optional** mods that are available in the Google Drive archive:
 * [Brutal Doom v21 Monsters Only](https://www.moddb.com/mods/brutal-doom/downloads/bdv21-monsters-only-version)
+* [Brutal Doom 64 Monsters Only](https://www.moddb.com/mods/brutal-doom-64/addons/brutal-doom-64-monsters-gzdoom-only)
 * [DOOM and DOOM II Minor Sprite Fixing Project](https://www.doomworld.com/files/file/18536-doom-2-minor-sprite-fixing-project-v19/)
 * [Doom Metal Soundtrack Volume 5](https://www.moddb.com/mods/brutal-doom/downloads/doom-metal-soundtrack-mod-volume-5)
 * [IDKFA Soundtrack](https://www.moddb.com/mods/brutal-doom/addons/idkfa-doom-soundtrack)
