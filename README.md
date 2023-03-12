@@ -1,5 +1,5 @@
 # GZDoom Mods Package
-This is a personal repo similar to [GamePatchesAndConfigs](https://github.com/TheRambotnic/GamePatchesAndConfigs), except for GZDoom mods.
+This is a personal repo similar to [game-patches-and-configs](https://github.com/TheRambotnic/game-patches-and-configs/), except for GZDoom mods.
 
 ## Contents
 1. [GZDoom Source Port info](#gzdoom-source-port)
@@ -9,7 +9,7 @@ This is a personal repo similar to [GamePatchesAndConfigs](https://github.com/Th
 5. [Links](#links)
 
 ## GZDoom Source Port
-This pack uses the [GZDoom Modern 4.8.2 (64-bit)](https://github.com/coelckers/gzdoom/releases/download/g4.8.2/gzdoom-4-8-2-Windows-64bit.zip) source port.
+This pack uses the [GZDoom 4.10.0 (64-bit)](https://github.com/ZDoom/gzdoom/releases/download/g4.10.0/gzdoom-4-10-0-Windows-64bit.zip) source port.
 
 [<img src="https://zdoom.org/w/images/2/25/Circle_gzdoom.png" alt="GZDoom Download" width="150" />](https://zdoom.org/downloads)
 
@@ -39,8 +39,6 @@ Below is a list of mods that are available in the Google Drive archive:
 * [Lambda](https://www.moddb.com/mods/lambda-for-doom-and-d00m-2)
 * [Live Through Doom](https://discord.gg/sAE7jDT)
 * [Project Brutality](https://github.com/pa1nki113r/Project_Brutality)
-* [SHRINE](https://www.moddb.com/mods/shrine)
-* [SHRINE II](https://www.moddb.com/mods/shrine-ii)
 * [VietDoom](https://www.moddb.com/mods/vietdoom)
 * [Wolfenstein 3D TC](https://www.afadoomer.com/wolf3d/downloads.html)
 
