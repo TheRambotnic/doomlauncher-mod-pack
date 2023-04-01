@@ -33,7 +33,7 @@ cd
 -file 	"%modsPath%/Wolfenstein 3D/Wolf3D.pk7" ^
 		"%modsPath%/Wolfenstein 3D/Wolf3D_Common.pk7" ^
 		"%modsPath%/Wolfenstein 3D/Wolf3D_Resources.pk3" ^
--config "%configsPath%-__Vanilla__.ini" ^
+-config "%configsPath%-Wolf3D.ini" ^
 +set dmflags 4259840 ^
 +set compatflags -1172751421 ^
 +set compatflags2 523 ^

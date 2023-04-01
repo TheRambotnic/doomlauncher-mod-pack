@@ -36,7 +36,7 @@ cd
 		"%modsPath%/Wolfenstein 3D/SoD.pk7" ^
 		"%modsPath%/Wolfenstein 3D/SoD_RTD.pk7" ^
 		"%modsPath%/Wolfenstein 3D/SoD_TUC.pk7" ^
--config "%configsPath%-__Vanilla__.ini" ^
+-config "%configsPath%-Wolf3D.ini" ^
 +set dmflags 4259840 ^
 +set compatflags -1172751421 ^
 +set compatflags2 523 ^
