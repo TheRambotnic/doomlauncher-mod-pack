@@ -39,7 +39,6 @@ Below is a list of mods that are available in the Google Drive archive:
 * [Lambda](https://www.moddb.com/mods/lambda-for-doom-and-d00m-2)
 * [Live Through Doom](https://discord.gg/sAE7jDT)
 * [Project Brutality](https://github.com/pa1nki113r/Project_Brutality)
-* [VietDoom](https://www.moddb.com/mods/vietdoom)
 * [Wolfenstein 3D TC](https://www.afadoomer.com/wolf3d/downloads.html)
 
 Below is a list of megawads that are available in the Google Drive archive:
