@@ -2,7 +2,7 @@
 
 set enginePath=..\GZDoom
 set /p engineVersion=<%enginePath%/version.txt
-set title=Brutal Wolfenstein v5.8
+set title=Brutal Wolfenstein v7.0
 
 :: when using these variables, remember to put a forward slash after them
 set iwadsPath=%enginePath%/IWADs
@@ -30,7 +30,7 @@ echo.
 cd
 %enginePath%\gzdoom.exe ^
 -iwad 	"%iwadsPath%/DOOM2.wad" ^
--file 	"%modsPath%/Brutal Wolfenstein/ZMC-BW5.8.pk3" ^
+-file 	"%modsPath%/Brutal Wolfenstein/ZMC-BWV7.0.pk3" ^
 		"%enginePath%/lights.pk3" ^
 -config "%configsPath%-BrutalWolf.ini" ^
 +set vid_fps 1
