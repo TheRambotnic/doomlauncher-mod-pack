@@ -2,7 +2,7 @@
 
 set enginePath=..\GZDoom
 set /p engineVersion=<%enginePath%/version.txt
-set title=Brutal Doom (v21 Gold) - TNT Evilution
+set title=Brutal Doom - TNT Evilution
 
 :: when using these variables, remember to put a forward slash after them
 set iwadsPath=%enginePath%/IWADs
@@ -18,7 +18,7 @@ title %title%
 echo %title%
 echo by Sergeant_Mark_IV - https://www.moddb.com/mods/brutal-doom
 echo.
-echo * Additional addon: Customized "Dox778" Standalone BDV21 Mod - https://www.moddb.com/mods/brutal-doom/downloads/customized-dox778-standalone-bdv21-mod
+echo * Additional addon: Brutal Doom Platinum - https://github.com/EmeraldCoasttt/BrutalDoomPlatinum
 echo.
 echo Running on %engineVersion%
 echo.
@@ -32,15 +32,10 @@ echo.
 cd
 %enginePath%\gzdoom.exe ^
 -iwad 	"%iwadsPath%/TNT.wad" ^
--file	"%modsPath%/Brutal Doom/Dox778sPersonalizedBrutalDoom_V15.pk3" ^
+-file	"%modsPath%/Brutal Doom/BrutalDoomPlatinumv3.1.1.pk3" ^
 		"%globalPath%/DoomMetalVol5.wad" ^
-		"%modsPath%/Brutal Doom/brutalv21ADSpatch.pk3" ^
 		"%modsPath%/Brutal Doom/HXRTCHUD_FIXED_BDV21.pk3" ^
-		"%modsPath%/Brutal Doom/DoxsBrutalDeagle_FIXED_SPAWNER_V15.pk3" ^
-		"%modsPath%/Brutal Doom/DoxsRevolver_FIXED_SPAWNER_V15.pk3" ^
-		"%modsPath%/Brutal Doom/Various_Fixes_for_Doxs_V15.pk3" ^
 		"%modsPath%/Brutal Doom/PlatinumRifleReskin.pk3" ^
-		"%globalPath%/TiltPlusPlus v1.65.pk3" ^
 		"%globalPath%/Damage Indicator.pk3" ^
 		"%enginePath%/lights.pk3" ^
 -config "%configsPath%-BrutalDoom.ini" ^
