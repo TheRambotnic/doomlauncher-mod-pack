@@ -37,6 +37,7 @@ Below is a list of mods that are available in the Google Drive archive:
 * [Embers of Armageddon](https://www.moddb.com/mods/embers-of-armageddon)
 * [Lambda](https://www.moddb.com/mods/lambda-for-doom-and-d00m-2)
 * [Live Through Doom](https://discord.gg/sAE7jDT)
+* [My House](https://www.doomworld.com/forum/topic/134292-myhousewad/)
 * [Project Brutality](https://github.com/pa1nki113r/Project_Brutality)
 * [Wolfenstein 3D TC](https://www.afadoomer.com/wolf3d/downloads.html)
 
