@@ -35,7 +35,6 @@ Below is a list of mods that are available in the Google Drive archive:
 * [Brutal Wolfenstein](https://www.moddb.com/mods/brutal-wolfenstein-3d)
 * [Doom 64: Retribution](https://www.moddb.com/mods/doom-64-retribution)
 * [Embers of Armageddon](https://www.moddb.com/mods/embers-of-armageddon)
-* [HDoom](https://hdoomguy.newgrounds.com/)
 * [Lambda](https://www.moddb.com/mods/lambda-for-doom-and-d00m-2)
 * [Live Through Doom](https://discord.gg/sAE7jDT)
 * [Project Brutality](https://github.com/pa1nki113r/Project_Brutality)
