@@ -26,7 +26,7 @@ Below is a list of mods that are available in the Google Drive archive:
 * [Ashes: 2063 - Episode One](https://www.moddb.com/mods/ashes-2063/downloads)
 * [Ashes: Afterglow - Episode Two](https://www.moddb.com/mods/ashes-2063/downloads)
 * [Brutal Doom v21](https://www.moddb.com/mods/brutal-doom)
-	* [Customized "Dox778" Standalone BDV21 Mod](https://www.moddb.com/mods/brutal-doom/downloads/customized-dox778-standalone-bdv21-mod)
+	* [Brutal Doom Platinum](https://github.com/EmeraldCoasttt/BrutalDoomPlatinum)
 	* [Extermination Day](https://www.moddb.com/mods/brutal-doom/forum/thread/extermination-day-beta-001-download)
 * [Brutal Doom 64](https://www.moddb.com/mods/brutal-doom-64)
 	* [v2.5 Patch](https://www.moddb.com/mods/brutal-doom-64/addons/brutal-doom-64-v2-patched)
