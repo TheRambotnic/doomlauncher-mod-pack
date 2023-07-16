@@ -34,7 +34,7 @@ cd
 -iwad 	"%iwadsPath%/DOOM.wad" ^
 -file	"%modsPath%/Brutal Doom/BrutalDoomPlatinumv3.1.1.pk3" ^
 		"%globalPath%/IDKFAv2.wad" ^
-		"%modsPath%/Brutal Doom/HXRTCHUD_FIXED_BDV21.pk3" ^
+		"%modsPath%/Brutal Doom/HXRTCHUD_BDPlatinum.pk3" ^
 		"%modsPath%/Brutal Doom/PlatinumRifleReskin.pk3" ^
 		"%globalPath%/Damage Indicator.pk3" ^
 		"%enginePath%/lights.pk3" ^
