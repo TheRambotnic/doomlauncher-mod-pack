@@ -33,10 +33,10 @@ cd
 %enginePath%\gzdoom.exe ^
 -iwad 	"%iwadsPath%/DOOM2.wad" ^
 -file	"%modsPath%/Brutal Doom/BrutalDoomPlatinumv3.1.1.pk3" ^
-		"%modsPath%/Brutal Doom/HXRTCHUD_BDPlatinum.pk3" ^
 		"%modsPath%/Brutal Doom/EdayTest001.pk3" ^
 		"%modsPath%/Brutal Doom/EdayMusic001.wad" ^
 		"%modsPath%/Brutal Doom/PlatinumRifleReskin.pk3" ^
+		"%globalPath%/HXRTCHUD-Plat_v060-ZDoom.pk3" ^
 		"%globalPath%/Damage Indicator.pk3" ^
 		"%enginePath%/lights.pk3" ^
 -config "%configsPath%-BrutalDoom.ini" ^
