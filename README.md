@@ -6,8 +6,9 @@ Below is a step-by-step tutorial on how to get Doom Launcher to work with the St
 ## Contents
 1. [Setting up Doom Launcher](#setting-up-doom-launcher)
 2. [Creating your own profile](#creating-your-own-profile)
-3. [Mods and Megawads](#mods-and-megawads)
-4. [Issues](#issues)
+3. [Important information about the database](#important-information-about-the-database)
+4. [Mods and Megawads](#mods-and-megawads)
+5. [Issues](#issues)
 
 ## Setting up Doom Launcher
 **1.** Download the ZIP version of [Doom Launcher](https://github.com/nstlaurent/DoomLauncher), go to Steam, right click `DOOM (1993) > Manage > Browse local files` and extract the files inside of it.
@@ -58,7 +59,7 @@ Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder f
 **That's it!** You can now launch the game through Steam and Doom Launcher will display the files and tabs correctly. Simply double click one, hit "OK" and get Doomin'!
 
 ## Creating your own profile
-Doom Launcher uses profiles to store all the necessary configuration for each mod/WAD. If you want to create your own, follow these steps:
+Doom Launcher uses profiles to store all the necessary configuration for each mod/WAD in the SQLite database. If you want to create your own, follow these steps:
 
 **1.** Download the mods/megawads you want from the internet and extract their files into `GZDoom/Mods` or `GZDoom/IWADs/Megawads`. Remember to create a folder with its name so that it stays organized!
 
@@ -112,6 +113,11 @@ Doom Launcher uses profiles to store all the necessary configuration for each mo
 **6.** If you want to create a separate tab for each of your mods/WADs, click the hamburger menu in the top left and then on `Manage Tags > Add`, type the name you want and hit "OK". (Make sure that "Show Tab" is set to "Yes")
 
 **7.** Right click the mod/WAD you want, click `Edit > Tags > Select...` and choose the newly created tag. It'll now show up in a separate tab in Doom Launcher.
+
+## Important information about the database
+The provided `DoomLauncher.sqlite` database file contains all of my own personal profiles and settings and is intended to be used ONLY ONCE as a template for your first time setting up Doom Launcher. If you choose to replace this file with an updated version from the most recent push, **YOU WILL LOSE ALL SETTINGS AND PROFILES THAT YOU'VE CREATED YOURSELF!**.
+
+Although Doom Launcher creates occasional backups of the database, I recommend creating your own backup ***just in case*** something goes wrong with your files.
 
 ## Mods and Megawads
 Below is a list of mods that I enjoy:
