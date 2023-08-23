@@ -20,7 +20,7 @@ Below is a step-by-step tutorial on how to get Doom Launcher to work with the St
 
 **5.** On Steam, right click `DOOM (1993) > Properties... > General > Launch Options` and type the following command:
 ```
-"PATH_TO_DOOM'S_FOLDER\DoomLauncher" %Command%
+"PATH_TO_DOOM'S_FOLDER\DoomLauncher.exe" %Command%
 ```
 Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder from Step 1.
 
