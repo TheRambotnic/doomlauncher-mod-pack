@@ -144,7 +144,7 @@ Below is a list of megawads that I enjoy:
 Below is a list of **extra/optional** mods that I enjoy:
 * [Brutal Doom v21 Monsters Only](https://www.moddb.com/mods/brutal-doom/downloads/bdv21-monsters-only-version)
 * [Brutal Doom 64 Monsters Only](https://www.moddb.com/mods/brutal-doom-64/addons/brutal-doom-64-monsters-gzdoom-only)
-* [DOOM and DOOM II Minor Sprite Fixing Project](https://www.doomworld.com/files/file/18536-doom-2-minor-sprite-fixing-project-v19/)
+* [GZSprFix 2.0 (Revenant100's sprite fixes repacked for GZDoom)](https://forum.zdoom.org/viewtopic.php?t=74649)
 * [Doom Metal Soundtrack Volume 5](https://www.moddb.com/mods/brutal-doom/downloads/doom-metal-soundtrack-mod-volume-5)
 * [IDKFA Soundtrack](https://www.moddb.com/mods/brutal-doom/addons/idkfa-doom-soundtrack)
 * [Hitmarkers](https://www.wad-archive.com/wad/782cb71865e196ea2e4c99b27eb7ce292d42f6b4)
