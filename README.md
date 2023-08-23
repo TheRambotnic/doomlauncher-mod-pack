@@ -1,8 +1,6 @@
 # GZDoom Mods Package
 This is a personal repository, and its contents are intended to help you and/or my future self to set up GZDoom mods and IWADs to run with Doom Launcher via Steam. It includes the latest version of GZDoom along with all the necessary folder structure, custom configuration files and database to get them working. It **DOES NOT INCLUDE** the Doom Launcher or any mod files!
 
-Previously, I was using a batch/shell script approach to run the mods without Steam. I've kept the [Windows](https://github.com/TheRambotnic/GZDoomModPack/tree/windows) and [Linux](https://github.com/TheRambotnic/GZDoomModPack/tree/linux) branches up in case you wanna have a look, but they are no longer being updated and some links may be broken.
-
 Below is a step-by-step tutorial on how to get Doom Launcher to work with the Steam version of [DOOM (1993)](https://store.steampowered.com/app/2280/DOOM_1993/).
 
 ## Contents
