@@ -54,7 +54,7 @@ SET SettingsExtraParams = REPLACE(SettingsExtraParams, "G:\SteamLibrary\steamapp
 	SettingsSpecificFiles = REPLACE(SettingsSpecificFiles, "G:\SteamLibrary\steamapps\common\Ultimate Doom", (SELECT DoomPath FROM Folder));
 ```
 
-Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder from Step 1 then hit `F5`.
+Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder from Step 1, hit `F5` to execute the commands and then `CTRL + S` to save the changes.
 
 **That's it!** You can now launch the game through Steam and Doom Launcher will display the files and tabs correctly. Simply double click one, hit "OK" and get Doomin'!
 
@@ -85,7 +85,7 @@ Doom Launcher uses profiles to store all the necessary configuration for each mo
 
 	- If you're running a **vanilla** WAD, add:
 	```
-	+dmflags 4259840 +compatflags -1172751421 +compatflags2 523
+	+dmflags 4259840 +compatflags -1172751405 +compatflags2 523
 	```
 	These will set the Compatibility Flags to "Doom (strict)". In case you're running a regular/modern mod, there's no need to use them.
 
@@ -178,7 +178,7 @@ FROM GameProfiles
 WHERE Name IN ('NAME_OF_PROFILE');
 ```
 
-Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder from Step 1 of [this section](#setting-up-doom-launcher) and `NAME_OF_PROFILE` with the exact name of the profile listed in the Megawads/Mods tab, then hit `F5`.
+Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder from Step 1 of [this section](#setting-up-doom-launcher) and `NAME_OF_PROFILE` with the exact name of the profile listed in the Megawads/Mods tab, hit `F5` to execute the command and then `CTRL + S` to save the changes.
 > If the profiles are not showing up, run the following command to list all of the available profiles:
 > ```sql
 > SELECT Name FROM GameProfiles
