@@ -126,6 +126,7 @@ Below is a list of mods that I enjoy:
 	* [Extermination Day](https://www.moddb.com/mods/brutal-doom/forum/thread/extermination-day-beta-001-download)
 * [Brutal Doom 64](https://www.moddb.com/mods/brutal-doom-64)
 	* [v2.5 Patch](https://www.moddb.com/mods/brutal-doom-64/addons/brutal-doom-64-v2-patched)
+	* [DOOM 64 ULTIMATE MUSIC PACK](https://www.moddb.com/mods/brutal-doom-64/addons/the-doom-64-ultimate-music-pack)
 * [Brutal Heretic RPG](https://nzdoom.net/showthread.php?tid=3)
 * [Brutal Hexen RPG](https://nzdoom.net/showthread.php?tid=2)
 * [Brutal Wolfenstein](https://www.moddb.com/mods/brutal-wolfenstein-3d)
