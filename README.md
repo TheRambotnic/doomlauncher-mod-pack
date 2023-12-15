@@ -138,7 +138,7 @@ Below is a list of mods that I enjoy:
 * [Project Brutality](https://github.com/pa1nki113r/Project_Brutality)
 * [Wolfenstein 3D TC](https://www.afadoomer.com/wolf3d/downloads.html)
 
-Below is a list of megawads that I enjoy:
+Below is a list of wads/megawads that I enjoy:
 * [Back to Saturn X Episode 1: Get Out Of My Stations](https://www.doomworld.com/forum/topic/62529)
 * [Back to Saturn X Episode 2: Tower In The Fountain Of Sparks](https://www.doomworld.com/forum/topic/69960)
 * [Eviternity](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/eviternity)
@@ -146,8 +146,9 @@ Below is a list of megawads that I enjoy:
 * [Stardate 20X7](https://www.doomworld.com/idgames/levels/doom2/Ports/s-u/sd20x7)
 * [Sunlust](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/sunlust)
 * [Valiant](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/valiant)
+* [SIGIL + SIGIL II](https://romero.com/sigil)
 
-Below is a list of **extra/optional** mods that I enjoy:
+Below is a list of extra/optional mods that I enjoy:
 * [Brutal Doom v21 Monsters Only](https://www.moddb.com/mods/brutal-doom/downloads/bdv21-monsters-only-version)
 * [Brutal Doom 64 Monsters Only](https://www.moddb.com/mods/brutal-doom-64/addons/brutal-doom-64-monsters-gzdoom-only)
 * [GZSprFix 2.0 (Revenant100's sprite fixes repacked for GZDoom)](https://forum.zdoom.org/viewtopic.php?t=74649)
