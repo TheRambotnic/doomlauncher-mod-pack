@@ -82,7 +82,7 @@ Doom Launcher uses profiles to store all the necessary configuration for each mo
 
 	- If you're running a **vanilla** WAD, add:
 	```
-	+dmflags 4259840 +compatflags -1172751405 +compatflags2 523
+	+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673
 	```
 	These will set the Compatibility Flags to "Doom (strict)". In case you're running a regular/modern mod, there's no need to use them.
 
@@ -136,9 +136,12 @@ Below is a list of mods that I enjoy:
 * [Live Through Doom](https://discord.gg/sAE7jDT)
 * [My House](https://www.doomworld.com/forum/topic/134292-myhousewad/)
 * [Project Brutality](https://github.com/pa1nki113r/Project_Brutality)
+* [Siren](https://www.moddb.com/mods/siren-doom-tc)
 * [Wolfenstein 3D TC](https://www.afadoomer.com/wolf3d/downloads.html)
 
 Below is a list of wads/megawads that I enjoy:
+* [Ancient Aliens](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/aaliens)
+* [AUGER;ZENITH](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/dbp37_augzen)
 * [Back to Saturn X Episode 1: Get Out Of My Stations](https://www.doomworld.com/forum/topic/62529)
 * [Back to Saturn X Episode 2: Tower In The Fountain Of Sparks](https://www.doomworld.com/forum/topic/69960)
 * [Eviternity](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/eviternity)
