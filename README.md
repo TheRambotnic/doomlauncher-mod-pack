@@ -26,14 +26,16 @@ Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder f
 If you'd like to use the provided `DoomLauncher.sqlite` database, follow [these steps](#using-my-own-doom-launcher-database-file) instead. This will save you a bit of time.
 
 ## Configuring a source port
-First things first, we need to configure a source port in order to launch any WAD/mod. Once Doom Launcher is opened, click the hamburger menu icon on the top left corner and click `Source Ports > New`. On the `Executable` field, click `Browse` and then search for the EXE of the sourceport you've downloaded earlier. You can then give it a custom name that will show up when creating profiles, and if you want your save files to be in a specific folder, you can select it in the `Alt Save Directory` field.
+First things first, we need to configure a source port in order to launch any WAD/mod.
+
+Once Doom Launcher is opened, click the hamburger menu icon on the top left corner and click `Source Ports > New`. On the `Executable` field, click `Browse` and then search for the EXE of the source port you've downloaded earlier. You can then give it a custom name that will show up when creating profiles, and if you want your save files to be in a specific folder, you can select it in the `Alt Save Directory` field.
 
 ## Creating your own profile
 Doom Launcher uses profiles to store all the necessary configuration for each mod/WAD in the SQLite database. If you want to create your own, follow these steps:
 
 **1.** Download the mods/megawads you want from the internet or from [this section](#mods-and-megawads) and extract their files into `Mods` or `IWADs/Megawads`. Remember to create a folder with its name so that it stays organized!
 
-**2.** In Doom Launcher, click the hamburger menu on the top left and then on `Add Files Recursively`. Select the Mods folder inside of GZDoom and click "OK". Do the same for the Megawads folder.
+**2.** In Doom Launcher, click the hamburger menu on the top left and then on `Add Files Recursively`. Select the Mods folder and click "OK". Do the same for the Megawads folder.
 
 **3.** In the "Recent" or "Local" tab of Doom Launcher, double click the file you want to use.
 * If you don't see these tabs, click the hamburger menu on the top left, then go to `Settings > View > Visible Views` and select them. Hit `Save` once you're done.
@@ -47,11 +49,11 @@ Doom Launcher uses profiles to store all the necessary configuration for each mo
 	-config "PATH_TO_DOOM'S_FOLDER\Sourceports\GZDoom\Configs\NAME_OF_CONFIG_FILE.ini"
 	```
 
-	Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder from Step 1 of [this section](#setting-up-doom-launcher).
+	Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of your DOOM (1993)'s installation folder.
 
-	Replace `NAME_OF_CONFIG_FILE.ini` with the file name of the config you wish to use. If it is a vanilla WAD, I recommend using `gzdoom-Vanilla.ini`.
+	Replace `NAME_OF_CONFIG_FILE.ini` with the file name of the config you wish to use. If it is a vanilla WAD, I recommend using `gzdoom-Vanilla.ini`. If you want to see the ones I've created, go into `Sourceports/GZDoom/Configs`.
 
-	If you want to create your own, you can make a copy of any of the INI files provided and rename them to your liking. Remember to set the command above to use the file you've created!
+	If you want to create your own, you can make a copy of any of the INI files provided and rename them to your liking (I'd recommend using `gzdoom-BrutalDoom.ini` or `gzdoom-EoA.ini` as a template). Remember to set the command above to use the file you've created!
 
 	- If you're running a **vanilla** WAD with GZDoom, add:
 	```
@@ -63,7 +65,7 @@ Doom Launcher uses profiles to store all the necessary configuration for each mo
 	```
 	+vid_rendermode #
 	```
-	Replace `#` with either `0` (Doom Software Renderer) or `1` (True Color Software Renderer). If you're running a modern mod, there's no need to use it as it'll default to `4` (Hardware Accelerated).
+	Replace `#` with either the number `0` (Doom Software Renderer) or `1` (True Color Software Renderer). If you're running a modern mod, there's no need to use it as it'll default to `4` (Hardware Accelerated).
 
 	Make sure all of these commands are in the same line! Otherwise, GZDoom will crash.
 
@@ -107,9 +109,9 @@ SET SettingsExtraParams = REPLACE(SettingsExtraParams, "G:\SteamLibrary\steamapp
 
 Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder in which you have it installed. Hit `F5` to execute the commands and then `CTRL + S` to save the changes. You can now launch the game through Steam and Doom Launcher will display the files and tabs correctly. Simply double click one, select a profile and hit "OK" to get Doomin'!
 
-**REMINDER:** If you choose to replace the database file with an updated version from the most recent push, YOU WILL LOSE ALL SETTINGS, FOLDER STRUCTURES AND PROFILES THAT YOU'VE CREATED YOURSELF!. Although Doom Launcher creates occasional backups of the database, I recommend creating your own backup just in case something goes wrong with your files.
+**REMINDER:** If you choose to replace the database file with an updated version from the most recent push, YOU WILL LOSE ALL SETTINGS, FOLDER STRUCTURES AND PROFILES THAT YOU'VE CREATED YOURSELF! Although Doom Launcher creates occasional backups of the database, I recommend creating your own backup just in case something goes wrong with your files.
 
-Another thing to note is that if you reinstall DOOM (1993) in a different directory, you'll have to update the folder paths in the database as well.
+Another thing to note is that if you reinstall DOOM (1993) in a different directory, you'll have to run the SQL script above to update the folder paths in the database again.
 
 ## Issues
 1. In case you're running a GZDoom game and it opens on any of your monitors besides your primary, open the console and type `vid_adapter #` where `#` is the number of the monitor you wish to use. If you don't know which one it is, press `Windows Key + I` and go to `System > Display`. Usually, the primary monitor should be number 1.
