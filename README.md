@@ -15,7 +15,7 @@ Below is a step-by-step tutorial on how to get Doom Launcher to work with the St
 
 If you've done everything correctly, the game's folder should look something like this:
 
-![Doom Launcher folder structure](https://imgur.com/a/754oBgZ)
+![Doom Launcher folder structure](https://i.imgur.com/fqWNHUV.png)
 
 **5.** On Steam, right click `DOOM (1993) > Properties... > General > Launch Options` and type the following command:
 ```
