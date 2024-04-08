@@ -59,18 +59,13 @@ Doom Launcher uses profiles to store all the necessary configuration for each mo
 	```
 	These will set the Compatibility Flags to "Doom (strict)". In case you're running a regular/modern mod, there's no need to use them.
 
-	- If you want to use GZDoom's FPS counter, add:
-	```
-	+vid_fps 1
-	```
-
 	- If you want to use the software renderer for **vanilla** WADs, add:
 	```
 	+vid_rendermode #
 	```
 	Replace `#` with either `0` (Doom Software Renderer) or `1` (True Color Software Renderer). If you're running a modern mod, there's no need to use it as it'll default to `4` (Hardware Accelerated).
 
-	Make sure all of these commands are in the same line! Otherwise, GZDoom will crash. Hit `Save Settings` once you're done.
+	Make sure all of these commands are in the same line! Otherwise, GZDoom will crash.
 
 - If a mod needs multiple files or if you want to use custom addons, in the **Additional Files / Load Order** section, click the file icon and select the ones you've imported in Step 2.
 
