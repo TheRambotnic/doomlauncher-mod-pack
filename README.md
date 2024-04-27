@@ -162,6 +162,7 @@ Below is a list of wads/megawads that I enjoy:
 * [Sunlust](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/sunlust)
 * [Valiant](https://www.doomworld.com/idgames/levels/doom2/Ports/megawads/valiant)
 * [SIGIL + SIGIL II](https://romero.com/sigil)
+* [Haunting Hollow](https://www.doomworld.com/vb/thread/140438)
 
 Below is a list of extra/optional mods that I enjoy:
 * [Brutal Doom v21 Monsters Only](https://www.moddb.com/mods/brutal-doom/downloads/bdv21-monsters-only-version)
@@ -180,3 +181,4 @@ Below is a list of extra/optional mods that I enjoy:
 * [HXRTC HUD Platinum](https://github.com/FelesNoctis/HXRTCHUD_Platinum)
 * [Damage Indicator](https://www.moddb.com/mods/qol-power-trip/addons/damage-indicator1)
 * [Bolognese Gore Mod](https://www.moddb.com/mods/brutal-doom/downloads/bolognese-gore-mod-v20)
+* [Target Spy](https://github.com/mmaulwurff/target-spy)
