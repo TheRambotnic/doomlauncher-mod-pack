@@ -142,6 +142,7 @@ Below is a list of mods that I enjoy:
 * [Brutal Heretic RPG](https://nzdoom.net/showthread.php?tid=3)
 * [Brutal Hexen RPG](https://nzdoom.net/showthread.php?tid=2)
 * [Brutal Wolfenstein](https://www.moddb.com/mods/brutal-wolfenstein-3d)
+* [Call of DOOM: Tarkov](https://www.moddb.com/mods/call-of-doom-cod-style-advanced-weapons-mod)
 * [Doom 64: Retribution](https://www.moddb.com/mods/doom-64-retribution)
 * [Embers of Armageddon](https://www.moddb.com/mods/embers-of-armageddon)
 * [Lambda](https://www.moddb.com/mods/lambda-for-doom-and-d00m-2)
