@@ -1,12 +1,12 @@
 # Doom Launcher Mods Package
 This is a personal repository, and its contents are intended to help you and/or my future self to set up Doom mods and IWADs to run with Doom Launcher via Steam. It includes all the necessary folder structure, custom configuration files and database to get them working. It DOES NOT INCLUDE the Doom Launcher, source ports or any mod files! However, the provided SQLite database file already has a few of those that I've setup personally.
 
-Below is a step-by-step tutorial on how to get Doom Launcher to work with the Steam version of [DOOM (1993)](https://store.steampowered.com/app/2280/DOOM_1993/).
+Below is a step-by-step tutorial on how to get Doom Launcher to work with the Steam version of [DOOM + DOOM II](https://store.steampowered.com/app/2280/DOOM__DOOM_II/).
 
 ## Setting up Doom Launcher
-**1.** Download the ZIP version of [Doom Launcher](https://github.com/nstlaurent/DoomLauncher), go to Steam, right click `DOOM (1993) > Manage > Browse local files` and extract the files inside of it.
+**1.** Download the ZIP version of [Doom Launcher](https://github.com/nstlaurent/DoomLauncher), go to Steam, right click `DOOM + DOOM II > Manage > Browse local files` and extract the files inside of it.
 
-**2.** Download the contents of this repository and place them inside of DOOM (1993)'s folder from Step 1.
+**2.** Download the contents of this repository and place them inside of DOOM + DOOM II's folder from Step 1.
 
 **3.** Download your source port of choice, open the `Sourceports` folder of this repository, create a new folder with the name of the source port and extract its files inside of it.
 * I've setup my Doom Launcher to work with [GZDoom](https://zdoom.org/downloads), [VKDoom](https://vkdoom.org/download) and [DSDA-Doom](https://github.com/kraflab/dsda-doom). As such, the `DoomLauncher.sqlite` file will already have my own configurations for those three. If you're not using any of these, you can delete the folders that came with this repository.
@@ -17,11 +17,11 @@ If you've done everything correctly, the game's folder should look something lik
 
 ![Doom Launcher folder structure](https://i.imgur.com/fqWNHUV.png)
 
-**5.** On Steam, right click `DOOM (1993) > Properties... > General > Launch Options` and type the following command:
+**5.** On Steam, right click `DOOM + DOOM II > Properties... > General > Launch Options` and type the following command:
 ```
 "PATH_TO_DOOM'S_FOLDER\DoomLauncher.exe" %Command%
 ```
-Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder from Step 1 and that's it! Doom Launcher has been setup to work when launched via Steam. Now let's start configuring it to launch your IWADs and mods.
+Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM + DOOM II's folder from Step 1 and that's it! Doom Launcher has been setup to work when launched via Steam. Now let's start configuring it to launch your IWADs and mods.
 
 If you'd like to use the provided `DoomLauncher.sqlite` database, follow [these steps](#using-my-own-doom-launcher-database-file) instead. This will save you a bit of time.
 
@@ -49,7 +49,7 @@ Doom Launcher uses profiles to store all the necessary configuration for each mo
 	-config "PATH_TO_DOOM'S_FOLDER\Sourceports\GZDoom\Configs\NAME_OF_CONFIG_FILE.ini"
 	```
 
-	Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of your DOOM (1993)'s installation folder.
+	Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of your DOOM + DOOM II's installation folder.
 
 	Replace `NAME_OF_CONFIG_FILE.ini` with the file name of the config you wish to use. If it is a vanilla WAD, I recommend using `gzdoom-Vanilla.ini`. If you want to see the ones I've created, go into `Sourceports/GZDoom/Configs`.
 
@@ -107,11 +107,11 @@ SET SettingsExtraParams = REPLACE(SettingsExtraParams, "G:\SteamLibrary\steamapp
 	SettingsSpecificFiles = REPLACE(SettingsSpecificFiles, "G:\SteamLibrary\steamapps\common\Ultimate Doom", (SELECT DoomPath FROM Folder));
 ```
 
-Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder in which you have it installed. Hit `F5` to execute the commands and then `CTRL + S` to save the changes. You can now launch the game through Steam and Doom Launcher will display the files and tabs correctly. Simply double click one, select a profile and hit "OK" to get Doomin'!
+Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM + DOOM II's folder in which you have it installed. Hit `F5` to execute the commands and then `CTRL + S` to save the changes. You can now launch the game through Steam and Doom Launcher will display the files and tabs correctly. Simply double click one, select a profile and hit "OK" to get Doomin'!
 
 **REMINDER:** If you choose to replace the database file with an updated version from the most recent push, YOU WILL LOSE ALL SETTINGS, FOLDER STRUCTURES AND PROFILES THAT YOU'VE CREATED YOURSELF! Although Doom Launcher creates occasional backups of the database, I recommend creating your own backup just in case something goes wrong with your files.
 
-Another thing to note is that if you reinstall DOOM (1993) in a different directory, you'll have to run the SQL script above to update the folder paths in the database again.
+Another thing to note is that if you reinstall DOOM + DOOM II in a different directory, you'll have to run the SQL script above to update the folder paths in the database again.
 
 ## Issues
 1. In case you're running a GZDoom game and it opens on any of your monitors besides your primary, open the console and type `vid_adapter #` where `#` is the number of the monitor you wish to use. If you don't know which one it is, press `Windows Key + I` and go to `System > Display`. Usually, the primary monitor should be number 1.
@@ -128,7 +128,7 @@ SELECT
 FROM GameProfiles;
 ```
 
-Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM (1993)'s folder from Step 1 of [this section](#setting-up-doom-launcher) then hit `F5` to execute the command. Expand the "Folder Structure" column and you should see the exact path in which the files need to be. Alter the folders in your directory accordingly.
+Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM + DOOM II's folder from Step 1 of [this section](#setting-up-doom-launcher) then hit `F5` to execute the command. Expand the "Folder Structure" column and you should see the exact path in which the files need to be. Alter the folders in your directory accordingly.
 
 ## Mods and Megawads
 Below is a list of mods that I enjoy:
