@@ -4,83 +4,71 @@ This is a personal repository, and its contents are intended to help you and/or 
 Below is a step-by-step tutorial on how to get Doom Launcher to work with the Steam version of [DOOM + DOOM II](https://store.steampowered.com/app/2280/DOOM__DOOM_II/).
 
 ## Setting up Doom Launcher
-**1.** Download the ZIP version of [Doom Launcher](https://github.com/nstlaurent/DoomLauncher), go to Steam, right click `DOOM + DOOM II > Manage > Browse local files` and extract the files inside of it.
-
-**2.** Download the contents of this repository and place them inside of DOOM + DOOM II's folder from Step 1.
-
-**3.** Download your source port of choice, open the `Sourceports` folder of this repository, create a new folder with the name of the source port and extract its files inside of it.
-* I've setup my Doom Launcher to work with [GZDoom](https://zdoom.org/downloads), [VKDoom](https://vkdoom.org/download) and [DSDA-Doom](https://github.com/kraflab/dsda-doom). As such, the `DoomLauncher.sqlite` file will already have my own configurations for those three. If you're not using any of these, you can delete the folders that came with this repository.
-
-**4.** Download the necessary IWADs from my [Google Drive](https://drive.google.com/drive/folders/1e1fbEjVGYPP10DRqNxhUlgQVdjPGuwqq?usp=sharing) and extract them inside of the `IWADs` folder of this repository.
-
-If you've done everything correctly, the game's folder should look something like this:
-
-![Doom Launcher folder structure](https://i.imgur.com/fqWNHUV.png)
-
-**5.** On Steam, right click `DOOM + DOOM II > Properties... > General > Launch Options` and type the following command:
+1. Download the ZIP version of [Doom Launcher](https://github.com/nstlaurent/DoomLauncher).
+2. On Steam, right click `DOOM + DOOM II > Manage > Browse local files` and extract the Doom Launcher folder from the zip file into DOOM's directory.
+3. Download the contents of this repository and place them inside of Doom Launcher's folder from the previous step.
+4. Download your source port of choice, open the `Sourceports` folder of this repository, create a new folder with the name of the source port and extract its files inside of it.
+	* I've setup my Doom Launcher to work with [GZDoom](https://zdoom.org/downloads) and [DSDA-Doom](https://github.com/kraflab/dsda-doom). As such, the `DoomLauncher.sqlite` file will already have my own configurations for those two. If you're not using any of these, you can delete the folders that came with this repository and setup your own by following [this section](#configuring-a-source-port).
+5. Download the necessary IWADs from my [Google Drive](https://drive.google.com/drive/folders/1e1fbEjVGYPP10DRqNxhUlgQVdjPGuwqq?usp=sharing) and extract them inside of the `IWADs` folder of this repository.
+6. On Steam, right click `DOOM + DOOM II > Properties... > General > Launch Options` and type the following command:
 ```
-"PATH_TO_DOOM'S_FOLDER\DoomLauncher.exe" %Command%
+"PATH_TO_DOOM'S_FOLDER\Doom Launcher\DoomLauncher.exe" %Command%
 ```
-Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM + DOOM II's folder from Step 1 and that's it! Doom Launcher has been setup to work when launched via Steam. Now let's start configuring it to launch your IWADs and mods.
+Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of DOOM + DOOM II's folder from Step 2 and that's it! Doom Launcher has been setup to work when launched via Steam. Now let's start configuring it to launch your IWADs and mods.
 
 If you'd like to use the provided `DoomLauncher.sqlite` database, follow [these steps](#using-my-own-doom-launcher-database-file) instead. This will save you a bit of time.
 
 ## Configuring a source port
-First things first, we need to configure a source port in order to launch any WAD/mod.
+Open Doom Launcher, click the hamburger menu icon on the top left corner and click `Source Ports > New`. On the `Executable` field, click `Browse` and then search for the EXE of the source port of your choosing (for convenience sake, remember to place the files in a custom folder inside of the `Sourceports` folder). You can then give it a custom name that will show up when creating profiles.
 
-Once Doom Launcher is opened, click the hamburger menu icon on the top left corner and click `Source Ports > New`. On the `Executable` field, click `Browse` and then search for the EXE of the source port you've downloaded earlier. You can then give it a custom name that will show up when creating profiles, and if you want your save files to be in a specific folder, you can select it in the `Alt Save Directory` field.
+If you want your save files to be in a specific folder, you can select it in the `Alt Save Directory` field.
 
 ## Creating your own profile
 Doom Launcher uses profiles to store all the necessary configuration for each mod/WAD in the SQLite database. If you want to create your own, follow these steps:
 
-**1.** Download the mods/megawads you want from the internet or from [this section](#mods-and-megawads) and extract their files into `Mods` or `IWADs/Megawads`. Remember to create a folder with its name so that it stays organized!
+1. Download the mods/megawads you want from the internet or from [this section](#mods-and-megawads) and extract their files into `Mods` or `IWADs/Megawads`. Remember to create a folder with its name so that it stays organized!
+2. In Doom Launcher, click the hamburger menu on the top left and then on `Add Files Recursively`. Select the Mods folder and click "OK". Do the same for the Megawads folder.
+3. In the "Recent" or "Local" tab of Doom Launcher, double click the file you want to use.
+	* If you don't see these tabs, click the hamburger menu on the top left, then go to `Settings > View > Visible Views` and select them. Hit `Save` once you're done.
+4. In the Launch window:
+	- Set **Port** to the source port of your choice.
+	- Set **IWAD** to the required WAD specified by the mod. Most of them use `DOOM2.wad`.
+	- Set **Extra Params** with any parameters you'd like to use for that specific profile, such as compatibility level, config file, etc. Remember to use parameters recognised by the source port you're using!
+		- For example, if you're using GZDoom and would like to use my very own config files, use these params:
+		```
+		-config "PATH_TO_DOOM'S_FOLDER\Doom Launcher\Sourceports\GZDoom\Configs\NAME_OF_CONFIG_FILE.ini"
+		```
 
-**2.** In Doom Launcher, click the hamburger menu on the top left and then on `Add Files Recursively`. Select the Mods folder and click "OK". Do the same for the Megawads folder.
+		Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of your DOOM + DOOM II's installation folder.
+		Replace `NAME_OF_CONFIG_FILE.ini` with the file name of the config you wish to use. If it is a vanilla WAD, I recommend using `gzdoom-Vanilla.ini`. If you want to see the ones I've created, go into `Sourceports/GZDoom/Configs`.
 
-**3.** In the "Recent" or "Local" tab of Doom Launcher, double click the file you want to use.
-* If you don't see these tabs, click the hamburger menu on the top left, then go to `Settings > View > Visible Views` and select them. Hit `Save` once you're done.
+		If you want to create your own, you can make a copy of any of the INI files provided and rename them to your liking (I'd recommend using `gzdoom-BrutalDoom.ini` or `gzdoom-EoA.ini` as a template). Remember to set the command above to use the file you've created!
 
-**4.** In the Launch window:
-- Set **Port** to the source port of your choice
-- Set **IWAD** to the required WAD specified by the mod. Most of them use `DOOM2.wad`
-- Set **Extra Params** with any parameters you'd like to use for that specific profile. Such as compatibility level, config file, etc.
-	- For example, if you're using GZDoom and would like to use my very own config files, use these params:
-	```
-	-config "PATH_TO_DOOM'S_FOLDER\Sourceports\GZDoom\Configs\NAME_OF_CONFIG_FILE.ini"
-	```
+		- If you're running a **vanilla** WAD with GZDoom, add:
+		```
+		+dmflags 4259840 +compatmode 2
+		```
+		These will set the Compatibility Flags to "Doom (strict)" and will disable freelook, jump and crouch. In case you're running a regular/modern mod, there's no need to use them.
+		
+		If some doors/elevators are not working correctly, go into `Compatibility Options > Map/Action Behavior` and disable "Use Doom's floor motion behavior"
 
-	Replace `PATH_TO_DOOM'S_FOLDER` with the complete path of your DOOM + DOOM II's installation folder.
+		- If you want to use GZDoom's software renderer for **vanilla** WADs, add:
+		```
+		+vid_rendermode #
+		```
+		Replace `#` with either the number `0` (Doom Software Renderer) or `1` (True Color Software Renderer). If you're running a modern mod, there's no need to use it as it'll default to `4` (Hardware Accelerated).
 
-	Replace `NAME_OF_CONFIG_FILE.ini` with the file name of the config you wish to use. If it is a vanilla WAD, I recommend using `gzdoom-Vanilla.ini`. If you want to see the ones I've created, go into `Sourceports/GZDoom/Configs`.
-
-	If you want to create your own, you can make a copy of any of the INI files provided and rename them to your liking (I'd recommend using `gzdoom-BrutalDoom.ini` or `gzdoom-EoA.ini` as a template). Remember to set the command above to use the file you've created!
-
-	- If you're running a **vanilla** WAD with GZDoom, add:
-	```
-	+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673
-	```
-	These will set the Compatibility Flags to "Doom (strict)". In case you're running a regular/modern mod, there's no need to use them.
-
-	- If you want to use the software renderer for **vanilla** WADs, add:
-	```
-	+vid_rendermode #
-	```
-	Replace `#` with either the number `0` (Doom Software Renderer) or `1` (True Color Software Renderer). If you're running a modern mod, there's no need to use it as it'll default to `4` (Hardware Accelerated).
-
-	Make sure all of these commands are in the same line! Otherwise, GZDoom will crash.
-
-- If a mod needs multiple files or if you want to use custom addons, in the **Additional Files / Load Order** section, click the file icon and select the ones you've imported in Step 2.
-
-- Hit `Save Settings` at the bottom when you're done, and then `OK` to start playing.
+		Make sure all of these commands are in the same line! Otherwise, GZDoom will crash.
+		<br/>
+	- If a mod needs multiple files or if you want to use custom addons, in the **Additional Files / Load Order** section, click the file icon and select the ones you've imported in Step 2.
+	- Hit `Save Settings` at the bottom when you're done, and then `OK` to start playing.
 
 ## Organizing WADs and Mods
 In order to make Doom Launcher not look like a complete clusterfuck of files, you can create tabs and add your own WADs/Mods to them. To do this:
 
-**1.** Click the hamburger menu icon on the top left corner, click `Manage Tags` and create the ones you want.
-
-**2.** To add a WAD/Mod to its own tab, go into either the "Recent" or "Local" tab, look for the WAD/mod file you want, right click it, then click `Edit > Tags > Select...` and choose the newly created tag. It'll now show up in a separate tab in Doom Launcher.
-
-**3.** If you want the WAD/mod to show the correct name instead of its file name, right click the file then click on `Edit` and set its name in the `Title` field. Additionally, you can also add the release date, author and a description that will show up when selecting it.
+1. Click the hamburger menu icon on the top left corner, click `Manage Tags` and create the ones you want.
+2. To add a WAD/Mod to its own tab, go into either the "Recent" or "Local" tab, look for the WAD/mod file you want, right click it, then click `Edit > Tags > Select...` and choose the newly created tag. It'll now show up in a separate tab in Doom Launcher.
+3. If you want the WAD/mod to show the correct name instead of its file name, right click the file then click on `Edit` and set its name in the `Title` field. Additionally, you can also add the release date, author and a description that will show up when selecting it.
 
 ## Using my own Doom Launcher database file
 I've included a `DoomLauncher.sqlite` database file which has all of my configs and mods already setup and ready to go. In this section, I'll show you how to use that one instead of having to setup everything yourself.
